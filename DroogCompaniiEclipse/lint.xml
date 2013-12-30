@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="UseSparseArrays">
+        <ignore path="src/ru/droogcompanii/application/data/data_structure/working_hours/WeekWorkingHours.java" />
+    </issue>
+</lint>
