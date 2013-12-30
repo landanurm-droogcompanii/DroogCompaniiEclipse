@@ -21,7 +21,7 @@ public class ActionBarListActivity extends ActionBarActivity {
         setContentView(R.layout.action_bar_list_activity_layout);
     }
 
-    protected ListView getListView() {
+    public ListView getListView() {
         if (listView == null) {
             listView = (ListView) findViewById(android.R.id.list);
         }
